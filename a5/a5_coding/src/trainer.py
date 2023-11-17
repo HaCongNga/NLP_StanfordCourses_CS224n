@@ -85,6 +85,7 @@ class Trainer:
                 # place data on the correct device
                 x = x.to(self.device)
                 y = y.to(self.device)
+                
 
                 # forward the model
                 with torch.set_grad_enabled(is_train):

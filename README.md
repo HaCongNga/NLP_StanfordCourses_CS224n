@@ -16,7 +16,7 @@ Coding: Rebuild co-occurrence-based word vectors and explore the word embeddings
 
 Written: Gradient computations and reporting the results of the Word2Vec model.
 
-Coding: Rebuild the Word2Vec model and its variation: the Skip-gram model in Word2Vec (naiveSoftmaxLossAndGradient and negSamplingLossAndGradient approach).
+Coding: Rebuild the Word2Vec model and its variation
 
 ## a3: Assignment 3: Dependency Parsing
 
@@ -31,17 +31,18 @@ Written: Insights about different implementations of attention operations and ma
 
 detection and correction of errors from the model; understanding BLEU.
 
-Coding: Implement fundamental building blocks of the Seq2Seq model from the starter code.
+Coding: Implement fundamental building blocks of the Seq2Seq model.
+## a5 : Assignment 5 : Self-Attention, Transformers, and Pretraining
+Written: + Gaining mathematical intuitions about the advantages of multi-headed attention over single one. 
+         + Empirical insights about the benefits of pretrained models.
+
+Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, minGPT.
+
+## Project : Default Project : BERT and downstream tasks
 
 ## Key skills
-
++ Mathematics (Linear Algebra, Statistics, Calculus)
 + PyTorch
 + Hugging Face
 + LaTeX
-  
-Updated on 07/10/2023
 
-## Future work
-
-+ a5: Assignment 5 (Self-Attention, Transformers, Pretraining): Plan completed: 14/10/2023
-+ Default Project: Question Answering: Plan completed: 10/11/2023
