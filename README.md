@@ -44,12 +44,12 @@ Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, minGPT.
     + Extensions : experiments on additional pretraining, contrastive learning, additional input features (POS, Name Entity Type...)
     Note : The code in repository is not provided with extensions.
     Results :
-    ** PART 1 **: BERT and Sentiment Analysis task (Without Extensions): 
+    # PART 1 : BERT and Sentiment Analysis task (Without Extensions): 
         Pretraining for SST : Dev Accuracy : 0.423 / Baseline : 0.39
         Pretraining for CFIMDB : Dev Accuracy : 0.824 / Baseline : 0.78
         Finetuning for SST : Dev Accuracy : 0.52 / Baseline : 0.51
         Finetuning for CFIMDB : Dev Accuracy : 0.97 / Baseline : 0.966
-    ** PART 2 **: (Not uploaded here) : My finding for richer and more robust BERT embeddings
+    # PART 2 : (Not uploaded here) : My finding for richer and more robust BERT embeddings
     scored much better than the baseline and other three tasks.
 
 ## Key skills
