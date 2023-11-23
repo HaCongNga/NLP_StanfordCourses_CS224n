@@ -10,19 +10,19 @@ Coding part: Implement fundamental blocks of neural models taught in the videos 
 
 Written: Analysis and reasoning about the word embeddings from the GloVe model and co-occurrence-based word vectors.
 
-Coding: Rebuild co-occurrence-based word vectors and explore the word embeddings.
+Coding:  **GloVe** Rebuild co-occurrence-based word vectors and explore the word embeddings.
 
 ## a2: Assignment 2: Understanding Word2Vec
 
 Written: Gradient computations and reporting the results of the Word2Vec model.
 
-Coding: Rebuild the Word2Vec model and its variation
+Coding: Rebuild the **Word2Vec** model and its variation
 
 ## a3: Assignment 3: Dependency Parsing
 
 Written: Insights and tips about training neural models; understand the operation of the dependency parser and errors from the neural dependency parsing model.
 
-Coding: Rebuild the neural dependency parsing model: parser model (deep learning model for predicting the next transition)
+Coding: Rebuild the **neural dependency parsing** model: parser model (deep learning model for predicting the next transition)
 
 , parser transitions: operate transitions (RIGHT ARC, LEFT ARC, ADD).
 ## a4: Assignment 4: Neural Machine Translation with RNNs
@@ -31,12 +31,12 @@ Written: Insights about different implementations of attention operations and ma
 
 detection and correction of errors from the model; understanding BLEU.
 
-Coding: Implement fundamental building blocks of the Seq2Seq model.
+Coding: Implement fundamental building blocks of the **Seq2Seq** model.
 ## a5 : Assignment 5 : Self-Attention, Transformers, and Pretraining
 Written: + Gaining mathematical intuitions about the advantages of multi-headed attention over single one. 
          + Empirical insights about the benefits of pretrained models.
 
-Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, minGPT.
+Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, **minGPT**.
 
 ## Project : Default Project : BERT and downstream tasks
     + Implement key elements of minBERT : multi-head self-attention, bert layers, forward, embeddings
@@ -44,7 +44,7 @@ Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, minGPT.
     + Extensions : experiments on additional pretraining, contrastive learning, additional input features (POS, Name Entity Type...)
     Note : The code in repository is not provided with extensions.
     Results :
-    # PART 1 : BERT and Sentiment Analysis task (Without Extensions): 
+    PART 1 : BERT and Sentiment Analysis task (Without Extensions): 
         Pretraining for SST : Dev Accuracy : 0.423 / Baseline : 0.39
         Pretraining for CFIMDB : Dev Accuracy : 0.824 / Baseline : 0.78
         Finetuning for SST : Dev Accuracy : 0.52 / Baseline : 0.51
