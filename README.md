@@ -39,6 +39,17 @@ Written: + Gaining mathematical intuitions about the advantages of multi-headed 
 Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, minGPT.
 
 ## Project : Default Project : BERT and downstream tasks
+    + Implement key elements of minBERT : multi-head self-attention, bert layers, forward, embeddings
+    + Using BERT embeddings for sentiment analysis, paraphrase detection, semantic textual similarity
+    + Extensions : experiments on additional pretraining, contrastive learning, additional input features (POS, Name Entity Type...)
+    Note : The code in repository is not provided with extensions.
+    Results :
+    Sentiment Analysis task : 
+        Pretraining for SST : Dev Accuracy : 0.45 / Cut off : 0.39
+        Pretraining for CFIMDB : Dev Accuracy : 0.85 / Cut off : 0.78
+        Finetuning for SST : Dev Accuracy : 0.56 / Cut off : 0.51
+        Finetuning for CFIMDB : Dev Accuracy : 0.971 / Cut off : 0.966
+
 
 ## Key skills
 + Mathematics (Linear Algebra, Statistics, Calculus)
