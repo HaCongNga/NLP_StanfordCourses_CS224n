@@ -1,4 +1,4 @@
-Assignments and Default Project for Course: CS224N_2021: Natural Language Processing with Deep Learning
+Assignments and Default Project for Course: **Stanford University_CS224N_2021**: Natural Language Processing with Deep Learning
 
 Each assignment (a1–a5) contains two parts: coding and written.
 
@@ -50,7 +50,7 @@ Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, **minGPT**.
         Finetuning for SST : Dev Accuracy : 0.52 / Baseline : 0.51
         Finetuning for CFIMDB : Dev Accuracy : 0.97 / Baseline : 0.966
     # PART 2 : (Not uploaded here) : My finding for richer and more robust BERT embeddings
-    scored much better than the baseline and other three tasks.
+    scored much better than the baseline and other two tasks.
 
 ## Key skills
 + Mathematics (Linear Algebra, Statistics, Calculus)
