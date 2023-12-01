@@ -10,19 +10,19 @@ Coding part: Implement fundamental blocks of neural models taught in the videos 
 
 Written: Analysis and reasoning about the word embeddings from the GloVe model and co-occurrence-based word vectors.
 
-Coding:  **GloVe** Rebuild co-occurrence-based word vectors and explore the word embeddings.
+Coding:  **GLOVE** Rebuild co-occurrence-based word vectors and explore the word embeddings.
 
 ## a2: Assignment 2: Understanding Word2Vec
 
 Written: Gradient computations and reporting the results of the Word2Vec model.
 
-Coding: Rebuild the **Word2Vec** model and its variation
+Coding: Rebuild the **WORD2VEC** model and its variation
 
 ## a3: Assignment 3: Dependency Parsing
 
 Written: Insights and tips about training neural models; understand the operation of the dependency parser and errors from the neural dependency parsing model.
 
-Coding: Rebuild the **neural dependency parsing** model: parser model (deep learning model for predicting the next transition)
+Coding: Rebuild the **NEURAL** **DEPENDENCY PARSER** model: parser model (deep learning model for predicting the next transition)
 
 , parser transitions: operate transitions (RIGHT ARC, LEFT ARC, ADD).
 ## a4: Assignment 4: Neural Machine Translation with RNNs
@@ -31,12 +31,12 @@ Written: Insights about different implementations of attention operations and ma
 
 detection and correction of errors from the model; understanding BLEU.
 
-Coding: Implement fundamental building blocks of the **Seq2Seq** model.
+Coding: Implement fundamental building blocks of the **SEQ2SEQ** model.
 ## a5 : Assignment 5 : Self-Attention, Transformers, and Pretraining
 Written: + Gaining mathematical intuitions about the advantages of multi-headed attention over single one. 
          + Empirical insights about the benefits of pretrained models.
 
-Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, **minGPT**.
+Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, **MINGPT**.
 
 ## Project : Default Project : BERT and downstream tasks
     + Implement key elements of minBERT : multi-head self-attention, bert layers, forward, embeddings
@@ -51,6 +51,10 @@ Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, **minGPT**.
         Finetuning for CFIMDB : Dev Accuracy : 0.97 / Baseline : 0.966
     # PART 2 : (Not uploaded here) : My finding for richer and more robust BERT embeddings
     scored much better than the baseline and other two tasks.
+    Multitasks results :
+    dev sentiment acc :: 0.532
+    dev paraphrase acc :: 0.625
+    dev sts corr :: 0.489
 
 ## Key skills
 + Mathematics (Linear Algebra, Statistics, Calculus)
