@@ -49,7 +49,7 @@ Coding: Reimplement Self-attention, pretraining and fine-tuning LLM, **MINGPT**.
         Pretraining for CFIMDB : Dev Accuracy : 0.824 / Baseline : 0.78
         Finetuning for SST : Dev Accuracy : 0.52 / Baseline : 0.51
         Finetuning for CFIMDB : Dev Accuracy : 0.97 / Baseline : 0.966
-    # PART 2 : (Not uploaded here) : My finding for richer and more robust BERT embeddings
+    # PART 2 : (Not uploaded here - I am discussing with my supervisor whether my extensions in this part can be turned into one publication (5/1/2024)) : My finding for richer and more robust BERT embeddings
     scored much better than the baseline and other two tasks.
     Multitasks results :
     dev sentiment acc :: 0.532
